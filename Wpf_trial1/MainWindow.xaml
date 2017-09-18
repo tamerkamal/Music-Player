@@ -1,0 +1,74 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Class="Wpf.Music.MediaPlayer"
+        Title=" Music Player" Height="300" Width="300"
+        MinWidth="300" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <Style x:Key="MediaElementStyle1" TargetType="{x:Type MediaElement}"/>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open" CanExecute="Open_CanExecute" Executed="Open_Executed" />
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
+        <CommandBinding Command="MediaCommands.Pause" CanExecute="Pause_CanExecute" Executed="Pause_Executed" />
+        <CommandBinding Command="MediaCommands.Stop" CanExecute="Stop_CanExecute" Executed="Stop_Executed" />
+    </Window.CommandBindings>
+    <Grid MouseWheel="Grid_MouseWheel">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ToolBar>
+
+            
+
+            <Button Command="MediaCommands.Play">
+                <Image Source="/images/play.jpg" Height="25"/>
+            </Button>
+            <Separator />
+            <Button Command="MediaCommands.Pause">
+                <Image Source="/images/pause.jpg" Height="31.924" />
+            </Button>
+            <Separator />
+            <Button Command="MediaCommands.Stop">
+                <Image Source="/images/stop.jpg" Height="25.17" />
+            </Button>
+            <Separator />
+            <Button Command="ApplicationCommands.Open">
+                <Image Source="/images/fileOpen.jpg" Height="20.941" />
+            </Button>
+        </ToolBar>
+
+        <MediaElement x:Name="mePlayer" Grid.Row="1" LoadedBehavior="Manual" Stretch="None" Style="{DynamicResource MediaElementStyle1}" />
+
+        <StatusBar Grid.Row="2">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem>
+                <TextBlock x:Name="lblProgressStatus"><Run Text="00:00:00"/></TextBlock>
+                
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1" HorizontalContentAlignment="Stretch">
+                <Slider x:Name="sliProgress" Thumb.DragStarted="sliProgress_DragStarted" 
+                        Thumb.DragCompleted="sliProgress_DragCompleted"
+                        ValueChanged="sliProgress_ValueChanged"/>
+                
+            </StatusBarItem>
+            
+            <StatusBarItem Grid.Column="2">
+                <Slider Name="volumeSlider" VerticalAlignment="Center" ValueChanged="ChangeMediaVolume" 
+       Minimum="0" Maximum="1" Value="0.5" Width="70"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

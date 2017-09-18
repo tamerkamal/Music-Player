@@ -1,0 +1,19 @@
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\bin\Debug\Wpf_trial1.exe.config
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\bin\Debug\Wpf_trial1.exe
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\bin\Debug\Wpf_trial1.pdb
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\WpfProject.csprojResolveAssemblyReference.cache
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\MainWindow.baml
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\MainWindow.g.cs
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\App.g.cs
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1_MarkupCompile.cache
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.g.resources
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.Properties.Resources.resources
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\WpfProject.csproj.GenerateResource.Cache
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.exe
+C:\Users\Tamer Abdelsalam\Documents\Visual Studio 2015\Projects\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.pdb
+C:\Users\Tamer Abdelsalam\Desktop\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\bin\Debug\Wpf_trial1.exe.config
+C:\Users\Tamer Abdelsalam\Desktop\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.exe
+C:\Users\Tamer Abdelsalam\Desktop\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.pdb
+E:\ITI\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\bin\Debug\Wpf_trial1.exe.config
+E:\ITI\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.exe
+E:\ITI\ITI projects\WPF Project (Tamer Abdelsalam)\Wpf_trial1\Wpf_trial1\obj\Debug\Wpf_trial1.pdb
